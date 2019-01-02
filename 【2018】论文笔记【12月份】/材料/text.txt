@@ -1,0 +1,15 @@
+https://bbs.pediy.com/thread-245980.htm
+https://www.52pojie.cn/thread-700779-1-1.html
+https://github.com/s3team/VMHunt
+
+
+Use the tracer to record an execution trace.
+pin -t tracer/obj-ia32/instracelog.so -- yourprogram
+Extract virtualized snippet in the trace.
+./vmextract tracefile
+Backward slice the trace.
+./slicer tracefile
+Run MG symbolic execution
+./mgse tracefile
+
+
